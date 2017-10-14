@@ -1,0 +1,1 @@
+This is Project COmpilation using Atomic Design for all projects that I will be doing from now on, this usually a own project to show my skills and knowledge in front end development.
