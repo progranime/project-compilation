@@ -1,0 +1,64 @@
+.pt {
+
+	.feature {
+		@media(min-width: @screen-sm-min) {
+			padding: 3px;
+		}
+
+	}
+
+	.pt-frame {
+		position: relative;
+	}
+
+	.pt-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	.pt-caption {
+		position: relative;
+	    bottom: 0;
+	    background-color: @secondary;
+	    width: 100%;
+	    color: @text-white;
+	    padding: @global-spacing;
+	    height: 50px;
+	    overflow: hidden;
+
+		.title {
+			margin: 0;
+    		font-size: 22px;
+		}
+
+		&-hide {
+			display: none;
+		}
+
+		&--top {
+			position: absolute;
+		    top: 0;
+		    background-color: @primary;
+		    color: @text-white;
+		    padding: (@global-spacing - 10);
+			
+		    .title {
+		    	margin: 0;
+		    	font-size: 16px;
+		    }
+		}
+
+		&--btm {
+			position: relative;
+		    background-color: @secondary;
+		    color: @text-white;
+		    padding: (@global-spacing - 10);
+			
+			.desc {
+				margin: 0;
+			}
+		}
+
+	}
+}
