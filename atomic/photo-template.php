@@ -3,6 +3,7 @@
 <head>
 	<title>My Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 </head>
 <body>
 

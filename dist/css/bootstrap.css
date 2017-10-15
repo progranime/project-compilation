@@ -6721,9 +6721,9 @@ button.close {
     display: none !important;
   }
 }
+/*Variables*/
 /*Components*/
 .global-header {
-  border-bottom: 1px solid #ECF0F1;
   background-color: #EF5350;
   color: #FFF;
   padding: 0px 15px;
@@ -6897,6 +6897,12 @@ button.close {
   display: block;
   margin: 0 auto;
 }
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .btn-link {
   color: #FFF;
   padding: 15px 45px !important;
@@ -6913,6 +6919,99 @@ button.close {
 .btn-link:hover {
   background-color: #D81B60;
   text-decoration: none;
+}
+@media (min-width: 768px) {
+  .pt .feature {
+    padding: 3px;
+  }
+}
+.pt .pt-frame {
+  position: relative;
+}
+.pt .pt-image img {
+  width: 100%;
+}
+.pt .pt-caption {
+  position: relative;
+  bottom: 0;
+  background-color: #E91E63;
+  width: 100%;
+  color: #FFF;
+  padding: 15px;
+  height: 50px;
+  overflow: hidden;
+}
+.pt .pt-caption .title {
+  margin: 0;
+  font-size: 22px;
+}
+.pt .pt-caption-hide {
+  display: none;
+}
+.pt .pt-caption--top {
+  position: absolute;
+  top: 0;
+  background-color: #EF5350;
+  color: #FFF;
+  padding: 5px;
+}
+.pt .pt-caption--top .title {
+  margin: 0;
+  font-size: 16px;
+}
+.pt .pt-caption--btm {
+  position: relative;
+  background-color: #E91E63;
+  color: #FFF;
+  padding: 5px;
+}
+.pt .pt-caption--btm .desc {
+  margin: 0;
+}
+.bt-overlay {
+  background-color: #000;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  width: 100%;
+  height: 75vh;
+}
+.bt .bt-slider {
+  position: relative;
+}
+.bt .bt-slider .bt-bg {
+  background-image: url("../../images/banner1.jpg");
+  background-position: center center;
+  height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bt .bt-slider .bt-caption {
+  font-size: 22px;
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.8;
+  padding: 15px;
+  border-left: 5px solid #E91E63;
+  z-index: 1;
+  line-height: 1.8em;
+}
+.bt .bt-slider .bt-caption .title {
+  color: #E91E63;
+}
+.bt .bt-slider .bt-caption .desc {
+  color: #FFF;
+}
+.bt .bt-slider .bt-caption--center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  opacity: 1;
+  text-align: center;
 }
 /*utilities*/
 /* padding */
@@ -7062,4 +7161,166 @@ button.close {
     background-color: #ECF0F1;
   }
 }
+body {
+  font-family: "Lato", "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 18px;
+}
+h1 {
+  font-family: "Lato", "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 38px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 44px;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 50px;
+  }
+}
+h2 {
+  font-family: "Lato", "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 28px;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 32px;
+  }
+}
+@media (min-width: 992px) {
+  h2 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 42px;
+  }
+}
+h3 {
+  font-family: "Lato", "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 26px;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 28px;
+  }
+}
+@media (min-width: 992px) {
+  h3 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  h3 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 36px;
+  }
+}
+h4 {
+  font-family: "Lato", "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  h4 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  h4 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  h4 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 30px;
+  }
+}
+h5 {
+  font-family: "Lato", "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 22px;
+}
+@media (min-width: 768px) {
+  h5 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  h5 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  h5 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 26px;
+  }
+}
+h6 {
+  font-family: "Lato", "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  h6 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  h6 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1200px) {
+  h6 {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-weight: 300;
+    font-size: 22px;
+  }
+}
+/*Mixins*/
 /*# sourceMappingURL=bootstrap.css.map */

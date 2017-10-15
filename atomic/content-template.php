@@ -3,6 +3,7 @@
 <head>
 	<title>My Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 </head>
 <body>
 
@@ -10,7 +11,7 @@
 
 
 	<!-- Content Template 1 -->
-
+	<h1>Content Template 1</h1>
 	<section>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -33,7 +34,8 @@
 	</section>
 
 	<!-- Content Template 2 -->
-	
+
+	<h1>Content Template 2</h1>
 	<section class="bg-content-alt">
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -56,7 +58,8 @@
 	</section>
 	
 	<!-- Content Template 3 -->
-
+	
+	<h1>Content Template 3</h1>
 	<section>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -80,6 +83,7 @@
 
 	<!-- Content Template 4 -->
 
+	<h1>Content Template 4</h1>
 	<section class="bg-content-alt">
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -110,7 +114,8 @@
 	</section>
 	
 	<!-- Content Template 5 -->
-
+	
+	<h1>Content Template 5</h1>
 	<section>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -151,7 +156,8 @@
 	</section>
 
 	<!-- Content Template 6 -->
-
+	
+	<h1>Content Template 6</h1>
 	<section class="bg-content-alt">
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -202,7 +208,8 @@
 	</section>
 	
 	<!-- Content Template 7 -->
-
+	
+	<h1>Content Template 7</h1>
 	<section>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -225,7 +232,8 @@
 	</section>
 	
 	<!-- Content Template 8 -->
-
+	
+	<h1>Content Template 8</h1>
 	<section class="bg-content-alt">
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -249,6 +257,7 @@
 	
 	<!-- Content Template 9 -->
 	
+	<h1>Content Template 9</h1>
 	<section>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
@@ -305,6 +314,7 @@
 
 	<!-- Content Template 10 -->
 	
+	<h1>Content Template 10</h1>
 	<section class="bg-content-alt">
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
