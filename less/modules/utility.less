@@ -1,0 +1,78 @@
+/* padding */
+
+.pad-all { padding: @global-spacing; }
+.pad-hor { padding: 0px @global-spacing; }
+.pad-ver { padding: @global-spacing 0px; }
+
+.pad-top { padding-top: @global-spacing; }
+.pad-rgt { padding-right: @global-spacing; }
+.pad-btm { padding-bottom: @global-spacing; }
+.pad-lft { padding-left: @global-spacing; }
+
+.pad-hor-dbl {padding: 0px (@global-spacing * 2); }
+.pad-ver-dbl { padding: (@global-spacing * 2) 0px; }
+.pad-top-dbl { padding-top: (@global-spacing * 2); }
+.pad-rgt-dbl { padding-right: (@global-spacing * 2); }
+.pad-btm-dbl { padding-bottom: (@global-spacing * 2); }
+.pad-lft-dbl { padding-left: (@global-spacing * 2); }
+
+/* reset padding */
+
+.pad-no { padding: 0; }
+.pad-hor-no { padding-left: 0; padding-right: 0; }
+.pad-ver-no { padding-top: 0; padding-bottom: 0; }
+.pad-top-no { padding-top: 0; }
+.pad-rgt-no { padding-right: 0; }
+.pad-btm-no { padding-bottom: 0; }
+.pad-lft-no { padding-left: 0; }
+
+
+
+/* margin */
+
+.mar-all { margin: @global-spacing; }
+.mar-hor { margin: 0px @global-spacing; }
+.mar-ver { margin: @global-spacing 0px; }
+
+.mar-top { margin-top: @global-spacing; }
+.mar-rgt { margin-right: @global-spacing; }
+.mar-btm { margin-bottom: @global-spacing; }
+.mar-lft { margin-left: @global-spacing; }
+
+.mar-hor-dbl {margin: 0px (@global-spacing * 2); }
+.mar-ver-dbl { margin: (@global-spacing * 2) 0px; }
+.mar-top-dbl { margin-top: (@global-spacing * 2); }
+.mar-rgt-dbl { margin-right: (@global-spacing * 2); }
+.mar-btm-dbl { margin-bottom: (@global-spacing * 2); }
+.mar-lft-dbl { margin-left: (@global-spacing * 2); }
+
+/* reset margin */
+
+.mar-no { margin: 0; }
+.mar-hor-no { margin-left: 0; margin-right: 0; }
+.mar-ver-no { margin-top: 0; margin-bottom: 0; }
+.mar-top-no { margin-top: 0; }
+.mar-rgt-no { margin-right: 0; }
+.mar-btm-no { margin-bottom: 0; }
+.mar-lft-no { margin-left: 0; }
+
+
+
+
+
+/* borders */
+
+.brd-full{border: 1px solid @border-color !important};
+.brd-no{border: none !important;}
+.brd-top-no{border-top: none !important;}
+.brd-btm-no{border-bottom: none !important;}
+
+
+
+
+/* backgrounds */
+.bg-content-alt { 
+	@media(min-width: @screen-sm-min) {
+		background-color: @bg-light-gray; 
+	}
+}

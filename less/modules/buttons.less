@@ -1,0 +1,21 @@
+.btn {
+	&-link {
+		color: @text-white;
+		padding: (@global-spacing) (@global-spacing * 3) !important;
+		background-color: @secondary;
+		text-decoration: none;
+
+		&:active,
+		&:focus,
+		&:visited {
+			background-color: @secondary;
+			color: @text-white;
+			text-decoration: none;
+		}
+
+		&:hover {
+			background-color: @secondary-dark;
+			text-decoration: none;
+		}
+	}
+}
