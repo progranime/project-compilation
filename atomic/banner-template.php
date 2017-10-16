@@ -9,6 +9,8 @@
 	
 	<?php include "../common/header.php";?>
 	
+	<!-- Banner Template 1 -->
+
 	<div class="bt">
 		<div class="bt-slider">
 			<div class="bt-bg"></div>
@@ -19,13 +21,15 @@
 		</div>
 	</div>
 	
+	<!-- Banner Template 2 -->
+
 	<div class="bt">
 		<div class="bt-overlay"></div>
 		<div class="bt-slider">
 			<div class="bt-bg"></div>
 			<div class="bt-caption bt-caption--center">
 				<h1 class="title">HEADLINE</h1>
-				<p class="desc">Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+				<p class="desc">Maecenas faucibus mollis interdum. </p>
 				<p><a href="#" class="btn btn-link">See More</a></p>
 			</div>
 		</div>

@@ -9,27 +9,41 @@
 
 	.pt-frame {
 		position: relative;
+		margin-bottom: auto;
 	}
 
-	.pt-image {
+	.pt-image-holder {
 		img {
 			width: 100%;
 		}
 	}
 
 	.pt-caption {
-		position: relative;
+		position: absolute;
 	    bottom: 0;
 	    background-color: @secondary;
 	    width: 100%;
 	    color: @text-white;
 	    padding: @global-spacing;
-	    height: 50px;
+	    height: auto;
 	    overflow: hidden;
+	    margin-bottom: auto;
+
+	    @media(min-width: @screen-sm-min) {
+			margin-bottom: -50px;
+	    }
 
 		.title {
 			margin: 0;
     		font-size: 22px;
+    		overflow: hidden;
+    		white-space: nowrap;
+    		text-overflow: ellipsis;
+		
+			&:hover {
+				white-space: unset;
+			}
+
 		}
 
 		&-hide {

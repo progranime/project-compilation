@@ -15,9 +15,19 @@
 		<h1>Photo Template 1</h1>
 		<div class="hidden-xs pad-top-dbl"></div>
 		<div class="row pt">
-			<div class="col-xs-12 col-sm-6 col-md-4 feature">
+			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
+						<img src="../images/img-placeholder-630x300.jpg">
+					</div>
+					<div class="pt-caption">
+						<p class="title">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 feature">
+				<div class="pt-frame">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption">
@@ -25,19 +35,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 feature">
+			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
-						<img src="../images/img-placeholder-630x300.jpg">
-					</div>
-					<div class="pt-caption">
-						<p class="title">Lorem Ipsum</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 feature">
-				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption">
@@ -57,42 +57,42 @@
 		<div class="row pt">
 			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-4 feature">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 				</div>
@@ -109,7 +109,7 @@
 		<div class="row pt">
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -119,7 +119,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -129,7 +129,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -139,7 +139,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -149,7 +149,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -159,7 +159,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -169,7 +169,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -179,7 +179,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3 feature pad-no">
 				<div class="pt-frame">
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<img src="../images/img-placeholder-630x300.jpg">
 					</div>
 					<div class="pt-caption-hide">
@@ -247,7 +247,7 @@
 					<div class="pt-caption--top">
 						<p class="title">Lorem ipsum dolor</p>
 					</div>
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<picture>
 							<img srcset="../images/img-placeholder-630x300.jpg">
 						</picture>
@@ -262,7 +262,7 @@
 					<div class="pt-caption--top">
 						<p class="title">Lorem ipsum dolor</p>
 					</div>
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<picture>
 							<img srcset="../images/img-placeholder-630x300.jpg">
 						</picture>
@@ -277,7 +277,7 @@
 					<div class="pt-caption--top">
 						<p class="title">Lorem ipsum dolor</p>
 					</div>
-					<div class="pt-image">
+					<div class="pt-img-holder">
 						<picture>
 							<img srcset="../images/img-placeholder-630x300.jpg">
 						</picture>

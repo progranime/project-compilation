@@ -25,6 +25,32 @@
 	}
 }
 
+
+.global-tab-abs {
+	display: table;
+
+	.global-tab-cell {
+		display: table-cell;
+		float: none;
+	}
+	.global-tab-top,
+	.global-tab-mid,
+	.global-tab-bot {
+		.global-tab-cell;
+	}
+	.global-tab-top {
+		vertical-align: top;
+	}
+
+	.global-tab-mid {
+		vertical-align: middle;
+	}
+
+	.global-tab-btm {
+		vertical-align: bottom;
+	}
+}
+
 .row {
 	margin: 0;
 }
@@ -68,5 +94,5 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	.prefix(transform, translate(-50%, -50%));
 }

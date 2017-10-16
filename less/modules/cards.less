@@ -1,0 +1,40 @@
+.cards {
+	padding: @global-spacing;
+	.card-frame {
+		box-shadow: 0px 3px 5px @card-shadow;
+	    margin-bottom: @global-spacing;
+
+	    @media(min-width: @screen-sm-min) {
+			margin-right: 0px;
+	    }
+	}
+
+	.card-img-holder {
+		img {
+			width: 100%;
+		}
+
+		&--left {
+			img {
+				width: auto;
+				float: left
+			}
+		}
+
+		&--auto {
+			img {
+				width: auto;
+			}
+		}
+	}
+
+	.card-caption {
+		background-color: @bg-white;
+		padding: @global-spacing;
+
+		.title {
+			color: @secondary;
+			font-size: 24px;
+		}
+	}
+}
