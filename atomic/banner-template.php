@@ -10,8 +10,8 @@
 	<?php include "../common/header.php";?>
 	
 	<!-- Banner Template 1 -->
-
-	<div class="bt">
+	<h1>Banner Template 1</h1>
+	<!-- <div class="bt">
 		<div class="bt-slider">
 			<div class="bt-bg"></div>
 			<div class="bt-caption">
@@ -19,11 +19,11 @@
 				<p class="desc">Maecenas faucibus mollis interdum. Morbi leo risus</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<!-- Banner Template 2 -->
-
-	<div class="bt">
+	<h1>Banner Template 2</h1>
+	<!-- <div class="bt">
 		<div class="bt-overlay"></div>
 		<div class="bt-slider">
 			<div class="bt-bg"></div>
@@ -33,11 +33,26 @@
 				<p><a href="#" class="btn btn-link">See More</a></p>
 			</div>
 		</div>
+	</div> -->
+	
+	<h1>Banner Template 3</h1>
+	<div class="bt">
+		<div class="bt-overlay"></div>
+		<div class="bt-slider">
+			<div class="bt-bg bt-bg--parallax" data-bg="../../images/banner1.jpg,../../images/banner2.jpg,../../images/banner3.jpg"></div>
+			<div class="bt-caption bt-caption--center">
+				<h1 class="title">HEADLINE</h1>
+				<p class="desc">Maecenas faucibus mollis interdum. </p>
+				<p><a href="#" class="btn btn-link">See More</a></p>
+			</div>
+		</div>
 	</div>
+
 	
 	<?php include "../common/footer.php";?>
 
 	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+
 </body>
-</html>
+</html>	
