@@ -21,8 +21,7 @@ var PROJECT = PROJECT || {};
 		},
 
 		BGSwitcher: function() {
-			$(window).on("resize", function() {
-
+			PROJECT.tools.onWindowResize();
 				var self = PROJECT.switcher;
 				//get current window using tools.js
 				var currentWindow = PROJECT.tools.currentWindow();
@@ -46,7 +45,6 @@ var PROJECT = PROJECT || {};
 				}*/
 
 
-			});
 			
 		}
 

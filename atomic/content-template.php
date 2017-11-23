@@ -11,8 +11,9 @@
 
 
 	<!-- Content Template 1 -->
-	<h1>Content Template 1</h1>
+	
 	<section>
+		<h1>Content Template 1</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -35,8 +36,8 @@
 
 	<!-- Content Template 2 -->
 
-	<h1>Content Template 2</h1>
-	<section class="bg-content-alt">
+	<section>
+		<h1>Content Template 2</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -59,8 +60,8 @@
 	
 	<!-- Content Template 3 -->
 	
-	<h1>Content Template 3</h1>
 	<section>
+		<h1>Content Template 3</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -83,8 +84,8 @@
 
 	<!-- Content Template 4 -->
 
-	<h1>Content Template 4</h1>
-	<section class="bg-content-alt">
+	<section>
+		<h1>Content Template 4</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -115,8 +116,8 @@
 	
 	<!-- Content Template 5 -->
 	
-	<h1>Content Template 5</h1>
 	<section>
+		<h1>Content Template 5</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -157,8 +158,8 @@
 
 	<!-- Content Template 6 -->
 	
-	<h1>Content Template 6</h1>
-	<section class="bg-content-alt">
+	<section>
+		<h1>Content Template 6</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -209,8 +210,8 @@
 	
 	<!-- Content Template 7 -->
 	
-	<h1>Content Template 7</h1>
 	<section>
+		<h1>Content Template 7</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -233,8 +234,8 @@
 	
 	<!-- Content Template 8 -->
 	
-	<h1>Content Template 8</h1>
-	<section class="bg-content-alt">
+	<section>
+		<h1>Content Template 8</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -257,8 +258,8 @@
 	
 	<!-- Content Template 9 -->
 	
-	<h1>Content Template 9</h1>
 	<section>
+		<h1>Content Template 9</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">
@@ -314,8 +315,9 @@
 
 	<!-- Content Template 10 -->
 	
-	<h1>Content Template 10</h1>
-	<section class="bg-content-alt">
+	
+	<section>
+		<h1>Content Template 10</h1>
 		<div class="container">
 			<div class="hidden-xs pad-top-dbl"></div>
 			<div class="row ct global-tab">

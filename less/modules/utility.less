@@ -71,8 +71,16 @@
 
 
 /* backgrounds */
-.bg-content-alt { 
+/* .bg-content-alt { 
 	@media(min-width: @screen-sm-min) {
 		background-color: @bg-light-gray; 
+	}
+} */
+
+section {
+	&:nth-child(odd) {
+		@media(min-width: @screen-sm-min) {
+			background-color: @bg-light-gray; 
+		}
 	}
 }
