@@ -12,7 +12,7 @@
 	<!-- Banner Template 1 -->
 	<h1>Banner Template 1</h1>
 	<!-- <div class="bt">
-		<div class="bt-slider">
+		<div class="bt-container">
 			<div class="bt-bg"></div>
 			<div class="bt-caption">
 				<h1 class="title">HEADLINE</h1>
@@ -25,7 +25,7 @@
 	<h1>Banner Template 2</h1>
 	<!-- <div class="bt">
 		<div class="bt-overlay"></div>
-		<div class="bt-slider">
+		<div class="bt-container">
 			<div class="bt-bg"></div>
 			<div class="bt-caption bt-caption--center">
 				<h1 class="title">HEADLINE</h1>
@@ -35,19 +35,28 @@
 		</div>
 	</div> -->
 	
-	<h1>Banner Template 3</h1>
+	<!-- <h1>Banner Template 3</h1>
 	<div class="bt">
 		<div class="bt-overlay"></div>
-		<div class="bt-slider">
-			<div class="bt-bg bt-bg--parallax" data-bg="../../images/banner1.jpg,../../images/banner2.jpg,../../images/banner3.jpg"></div>
+		<div class="bt-container">
+			<div class="bt-bg bt-bg--parallax" data-bg="../images/banner1.jpg,../images/banner2.jpg,../images/banner3.jpg" ></div>
 			<div class="bt-caption bt-caption--center">
 				<h1 class="title">HEADLINE</h1>
 				<p class="desc">Maecenas faucibus mollis interdum. </p>
 				<p><a href="#" class="btn btn-link">See More</a></p>
 			</div>
 		</div>
+	</div> -->
+	
+	<h1>Banner Slider 1</h1>
+	<div class="bt">
+		<div class="bt-overlay"></div>
+		<div class="bt-container bt-slider">
+			<div class="bt-bg bt-bg--parallax" data-bg="../images/banner1.jpg,../images/banner1.jpg,../images/banner1.jpg" ></div>
+			<div class="bt-bg bt-bg--parallax" data-bg="../images/banner2.jpg,../images/banner2.jpg,../images/banner2.jpg" ></div>
+			<div class="bt-bg bt-bg--parallax" data-bg="../images/banner3.jpg,../images/banner3.jpg,../images/banner3.jpg" ></div>
+		</div>
 	</div>
-
 	
 	<?php include "../common/footer.php";?>
 

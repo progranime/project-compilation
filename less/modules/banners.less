@@ -13,7 +13,7 @@
     	}
 	}
 
-	.bt-slider {
+	.bt-container {
 		position: relative;
 
 		.bt-bg {
@@ -60,6 +60,14 @@
 		    	text-align: center;
 		    }
 		}
+
+		
+		&.bt-slider > div {
+			&:not(:nth-child(1)) {
+				display: none;
+			}
+		}	
+
 	}
 
 	

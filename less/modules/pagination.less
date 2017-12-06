@@ -1,0 +1,65 @@
+.pagination-holder {
+
+}
+
+.je-pagination {
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		
+		@media(min-width: @screen-sm-min) {
+			text-align: right;
+		}
+
+		li {
+			display: inline-block;
+			margin: 0px (@global-spacing / 15);
+
+			@media(min-width: @screen-sm-min) {
+				margin: 0px (@global-spacing / 5);
+			}
+
+			a {
+				color: @text-black;
+				text-decoration: none;
+				padding: (@global-spacing / 5) (@global-spacing / 3);
+			}
+			
+			&.active {
+				background-color: @bg-black;
+				border-radius: (@global-spacing / 5);
+				a {
+					color: @text-white;
+				}
+			}
+
+			&.disabled {
+				opacity: 0.5;
+				a {
+					cursor: default;
+				}
+			}
+
+			&.prev {
+				img {
+					margin: 0px (@global-spacing - 10) 0px 0px;
+					@media(min-width: @screen-sm-min) {
+						margin: 0px (@global-spacing - 5) 0px 0px;
+					}
+				}
+			}
+
+			&.next {
+				img {
+					margin: 0px 0px 0px (@global-spacing - 10);
+					@media(min-width: @screen-sm-min) {
+						margin: 0px 0px 0px (@global-spacing - 5);
+					}
+				}
+			}
+
+		}
+	}
+}
+

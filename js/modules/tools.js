@@ -11,35 +11,40 @@ var PROJECT = PROJECT || {};
 
 	PROJECT.tools = {
 		init: function() {
+			this.globalVar();
 			this.currentWindow();
+			this.onWindowResize();
+		},
+
+		globalVar: function() {
+			this.domViewport;
 		},
 
 		currentWindow: function() {
 			var self = PROJECT.tools;
-			var domWidth = window.innerWidth,
-				domViewport = "";
+			var domWidth = window.innerWidth;
 
 			if(domWidth < 768) {
-				domViewport = "mobile";
+				self.domViewport = "mobile";
 			}else if(domWidth > 767 && domWidth < 1024) {
-				domViewport = "tablet";
+				self.domViewport = "tablet";
 			}else {
-				domViewport = "desktop";
+				self.domViewport = "desktop";
 			}
-			self.onWindowResize();
-			return domViewport;
+			// self.onWindowResize();
+			return self.domViewport;
 		},
 
 		onWindowResize: function() {
 			var self = PROJECT.tools;
 			$(window).on('resize', self.debounce(function() {
-				console.log(self.currentWindow.domViewport);
-				self.currentWindow;
+				console.log("Resize: " + self.currentWindow());
+				self.currentWindow();
 			},100,false));
 		},
 
 		domBreakpoint: function() {
-			PROJECT.tools.currentWindow();
+			return this.domViewport;
 		},
 
 		debounce: function(func, wait, immediate) {

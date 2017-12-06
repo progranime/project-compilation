@@ -120,7 +120,9 @@ module.exports = function (grunt) {
           'js/affix.js',
           'js/modules/header.js',
           'js/modules/tools.js',
-          'js/modules/switcher.js'
+          'js/modules/switcher.js',
+          'js/modules/pagination.js',
+          'js/modules/initPlugins.js'
         ],
         dest: 'dist/js/<%= pkg.name %>.js'
       }
